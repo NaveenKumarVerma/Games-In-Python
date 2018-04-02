@@ -9,9 +9,13 @@ The objective of this game is to navigate a virtual snake through a walled space
 
 ### Controls
 Upwards movement of the snake   - **Up** arrow key (or # W key word).
+
 Downwards movement of the snake - **Down** arrow key (or # S key word).
+
 Right movement of the snake     - **Right** arrow key (or # A key word).
+
 Left movement of the snake      - **Left** arrow key (or # D key word).
+
 
 Pause the game  - **P** key word.
 Quit the game   - **Q** key word.
@@ -24,14 +28,23 @@ The objective of this game is to destroy the enemy tank before it destroys your 
 
 ### Controls
 Forward movement of the tank  - **Left** arrow key.
+
 Backward movement of the tank - **Right** arrow key.
+
 
 Movement of Turret of the tank - **Up** and **Down** arrow keys.
 
+
 Increasing the power of the bomb  - **A** key word.
+
 Decreasing the power of the bomb  - **D** key word.
+
 
 Firing the Bomb - **Spacebar** key.
 
+
 Pause the game  - **P** key word.
+
 Quit the game   - **Q** key word.
+
+
