@@ -33,9 +33,9 @@ gameDisplay = pygame.display.set_mode((display_width,display_height))
 
 
 
-snakehead = pygame.image.load("snakehead.png")
-icon = pygame.image.load("snakehead.png")
-apple = pygame.image.load("apple.png")
+snakehead = pygame.image.load("media/snakehead.png")
+icon = pygame.image.load("media/snakehead.png")
+apple = pygame.image.load("media/apple.png")
 
 pygame.display.set_icon(icon)#To set icon
 pygame.display.update() #To update the frame
@@ -52,11 +52,11 @@ medfont = pygame.font.SysFont("comicsansms", 50)
 largefont = pygame.font.SysFont("comicsansms", 80)
 
 def hitMusic():
-    pygame.mixer.music.load("hit.wav")
+    pygame.mixer.music.load("media/hit.wav")
     pygame.mixer.music.play()
     
 def eatMusic():
-    pygame.mixer.music.load("beep.wav")
+    pygame.mixer.music.load("media/beep.wav")
     pygame.mixer.music.play()
     
 def wall():

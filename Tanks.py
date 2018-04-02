@@ -3,9 +3,9 @@ import time
 import random
 from pygame.locals import *
 
-bg = "tan.jpg"
-win = "win.jpg"
-lost = "lost.jpg"
+bg = "media/tan.jpg"
+win = "media/win.jpg"
+lost = "media/lost.jpg"
 
 pygame.init()
 
@@ -64,7 +64,7 @@ medfont = pygame.font.SysFont("comicsansms", 50)
 largefont = pygame.font.SysFont("comicsansms", 80)
 
 def hitMusic():
-    pygame.mixer.music.load("bomb.ogg")
+    pygame.mixer.music.load("media/bomb.ogg")
     pygame.mixer.music.play()
 
 
